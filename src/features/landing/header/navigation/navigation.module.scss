@@ -1,0 +1,11 @@
+
+
+
+.navigation-button-box {
+ //   border: 1px rgb(0, 255, 42) solid;
+    @apply flex items-center w-[50%] justify-between min-w-[223px] p-1 mr-10 max-w-[395px];
+
+    .nav-bt {
+        @apply text-[0.70rem] font-semibold;
+    }
+}

@@ -1,0 +1,12 @@
+
+
+//general style of auth buttons
+.auth-buttons {
+    @apply h-7  border-2  font-semibold text-[0.68rem] py-[0.90rem] px-6;
+}
+
+
+.login-bt{
+    @extend .auth-buttons;
+    @apply border-[#06A2FF] text-[#0288D1];
+}

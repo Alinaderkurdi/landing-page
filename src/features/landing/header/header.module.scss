@@ -1,0 +1,11 @@
+
+
+.header-main {
+   // border: 1px red solid;
+    @apply  sticky top-0 flex  items-center py-1 pr-10;//justify-end
+
+    .wrapper {
+    //  border: 1px red solid;
+        @apply  flex ml-auto self-end justify-end px-1 w-[70%];
+    }
+}
