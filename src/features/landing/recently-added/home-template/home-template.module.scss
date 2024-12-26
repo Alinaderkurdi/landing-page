@@ -1,0 +1,18 @@
+
+
+.template {
+    @apply border-[0.12rem] flex items-center  border-mainGray rounded-md p-2;
+
+    .image-wrapper {
+        border: 1px red solid;
+        @apply rounded-md overflow-clip;
+    }
+
+    .info-wrapper {
+      border: 1px red solid;
+
+      .location {
+        @apply text-xs font-semibold;
+      }
+    }
+}

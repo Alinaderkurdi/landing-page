@@ -3,13 +3,13 @@
 type button = {
     appendStyle?: string
     children ?: React.ReactNode
-    functionPointer? : any
+    functionPointer? : ()=> void
 }
 
 const Button = (props: button)=> {
     const {children , appendStyle , functionPointer } = props
     return (
-        <button onClick={functionPointer} className={`rounded-lg flex outline-none justify-center flex-row items-center ${appendStyle ? appendStyle : ''}`}>
+        <button onClick={functionPointer} className={`rounded-lg flex  outline-none justify-center flex-row items-center ${appendStyle ? appendStyle : ''}`}>
            {children} 
         </button>
     )

@@ -1,0 +1,25 @@
+
+
+.recently-main {
+  //  border: 1px red solid;
+    @apply mt-14 py-2;
+
+
+    .section-head {
+       // border: 1px rgb(217, 255, 0) solid;
+        @apply flex justify-between items-center;
+
+        .title {
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+            @apply  font-medium;;
+        }
+
+        .see-all {
+           // border:1px red solid;
+           font-size: 0.9rem;
+           line-height: 1rem ;
+           @apply p-1  text-mainBlue;
+        }
+    }
+}

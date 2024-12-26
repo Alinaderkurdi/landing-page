@@ -1,0 +1,14 @@
+
+
+.availble-countries-main {
+ /// border: 1px red solid;
+  @apply mt-16 text-center flex flex-col items-center  max-w-[58rem] mx-auto;
+  .section-title {
+    // border: 1px red solid;
+    @apply text-2xl font-medium max-w-[19.5rem];
+  }
+  .countries {
+    border: 1px rgb(55, 0, 255) solid;
+    @apply mt-5 flex   p-1 w-full overflow-x-auto flex-row-reverse  ;//max-w-[56.25rem]
+  }
+}

@@ -1,0 +1,21 @@
+
+
+.contact-main {
+    @apply  bg-gradient-to-r from-[#C4E0EC] to-[#E4F3F6]  h-[17rem] mt-14 relative overflow-clip;
+
+    .section-image{
+      border: 1px red solid;
+      z-index: 0;
+      @apply absolute right-0 bottom-0;
+    }
+
+    .content-section {
+        border: 1px red solid;
+        
+        .setion-title {
+           // border: 1px red solid;
+            @apply text-xl font-semibold leading-relaxed max-w-[11.313rem]
+        }
+    }
+}
+

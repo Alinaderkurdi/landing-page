@@ -1,6 +1,46 @@
 
 
+
+.upper-layer-index {
+    z-index: 10;
+}
+
 .search-section-main {
-    border: 1px red solid;
-    //@apply 
+    @extend .upper-layer-index;
+    @apply  bg-[#EEF9FF] h-[23rem] mt-5 relative overflow-clip ;//min-w-[34.55rem]
+
+    .section-titel {
+        @extend .upper-layer-index;
+        @apply line-clamp-2 font-semibold text-2xl max-w-[18.188rem] leading-relaxed;
+    }
+    .service-introducer{
+        @extend .upper-layer-index;
+    }
+
+
+    .image-wrapper {
+        border: 1px red solid;
+        z-index: -1;
+        bottom: -0px;
+        right: -0px;
+        @apply w-[24rem] h-[20rem] absolute overflow-clip;
+
+        .home-image{
+                border: 1px red solid;
+               // top: -100px;
+                //left:-100px;
+              //z-index: -1;
+               @apply absolute;
+             }
+        
+    }
+
+    
+
+   // .home-image{
+   //   bottom: -54px;
+   //   right: -54px;
+   //   z-index: -1;
+   //   @apply absolute;
+   // }
 }
