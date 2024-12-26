@@ -7,7 +7,7 @@
 
 .search-section-main {
     @extend .upper-layer-index;
-    @apply  bg-[#EEF9FF] h-[23rem] mt-5 relative overflow-clip ;//min-w-[34.55rem]
+    @apply  bg-[#EEF9FF] h-[23rem] mt-5 relative overflow-clip ;
 
     .section-titel {
         @extend .upper-layer-index;
@@ -17,30 +17,10 @@
         @extend .upper-layer-index;
     }
 
-
-    .image-wrapper {
-        border: 1px red solid;
-        z-index: -1;
-        bottom: -0px;
-        right: -0px;
-        @apply w-[24rem] h-[20rem] absolute overflow-clip;
-
-        .home-image{
-                border: 1px red solid;
-               // top: -100px;
-                //left:-100px;
-              //z-index: -1;
-               @apply absolute;
-             }
-        
-    }
-
-    
-
-   // .home-image{
-   //   bottom: -54px;
-   //   right: -54px;
-   //   z-index: -1;
-   //   @apply absolute;
-   // }
+    .home-image{
+     bottom: -54px;
+     right: -54px;
+     z-index: -1;
+     @apply absolute;
+   }
 }

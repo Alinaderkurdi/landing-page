@@ -2,7 +2,7 @@ import { StaticImageData } from "next/image"
 import style from './home-template.module.scss';
 import Image from 'next/image';
 
-import testI from '../assets/pexels-expect-best-79873-323776.jpg'
+import testI from '../../assets/pexels-expect-best-79873-323776.jpg';
 
 type templateProps = {
    imageUrl: StaticImageData

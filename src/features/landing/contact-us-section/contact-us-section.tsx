@@ -13,14 +13,14 @@ const ContactUsSection = ()=> {
             <div className={style['content-section']}>
                 <h4 className={style['setion-title']}>Find your best Real Estate</h4>
                 <h5 className={serviceIntroducer['service-introducer']}>We provide a complete service for the sale, purchase or rental of real estate</h5>
-                <Image 
-                 className={style['section-image']}
-                 src={commercialTower}
-                 width={300}
-                 height={300}
-                 alt={'skyscraper'}
-                 />
             </div>
+            <Image 
+              className={style['section-image']}
+              src={commercialTower}
+              width={300}
+              height={300}
+              alt={'skyscraper'}
+            />
         </div>
     )
 }
