@@ -1,11 +1,15 @@
 
 
 .header-main {
-  // border: 1px red solid;
   z-index: 20;
-  @apply  sticky top-0 flex   py-1 bg-[#FFFFFF] max-w-[56.25rem] tab&win:mx-auto;
-  .wrapper {
-   // border: 1px red solid;
+  @apply  sticky top-0    py-1 bg-[#FFFFFF];
+
+  .element-wrapper {
+    @apply  max-w-[56.25rem] tab&win:mx-auto flex ;
+
+    .wrapper {
     @apply  flex ml-auto self-end justify-end px-1 w-[70%];
+    }
   }
+ 
 }

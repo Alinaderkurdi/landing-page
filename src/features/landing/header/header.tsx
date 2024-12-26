@@ -8,10 +8,12 @@ import LogoBox from './logo-box/logo-box';
 const Header = ()=> {
   return(
     <header className={style['header-main']}>
-      <LogoBox />
-      <div className={style['wrapper']}>
+      <div className={style['element-wrapper']}>
+       <LogoBox />
+       <div className={style['wrapper']}>
         <Navigation />
         <Authentication />
+       </div>
       </div>
     </header>
   )

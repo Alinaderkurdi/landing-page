@@ -1,9 +1,6 @@
 
-
-//aspectRatio: '16/9'
 .info-box {
-  border: 1px red solid;
-  @apply relative rounded-2xl overflow-clip mr-3 h-[16rem]  w-[11.30rem] flex-none ;//w-[14.50rem]
+  @apply relative rounded-2xl overflow-clip mr-3 h-[16rem]  w-[11.30rem] flex-none ;
 
 
   .country-name {

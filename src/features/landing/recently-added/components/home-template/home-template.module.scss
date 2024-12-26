@@ -1,18 +1,42 @@
 
 
 .template {
-    @apply border-[0.12rem] flex items-center  border-mainGray rounded-md p-2;
+  @apply border-[1px] flex border-mainGray rounded-2xl p-3;
 
-    .image-wrapper {
-        border: 1px red solid;
-        @apply rounded-md overflow-clip;
+  .image-wrapper {
+    @apply rounded-md overflow-clip w-20 h-24  flex-none relative;
+
+    .image-style {
+      @apply object-fill;
+    }
+  }
+
+  .info-wrapper {
+    @apply ml-7;
+
+    .location {
+      @apply text-lg  font-medium ;
     }
 
-    .info-wrapper {
-      border: 1px red solid;
+    .middle-row {
+      @apply flex justify-between pt-1;
+      
+      //.mid-row-text {
+      //  //color: red
+      // // @apply
+      //}
+    }
 
-      .location {
-        @apply text-xs font-semibold;
+    .bottom-row {
+      @apply pt-3 flex justify-between items-center;
+
+      .price-tag {
+        @apply p-1 bg-mainGray text-[#ffff] text-sm rounded-md;
       }
     }
+  }
+}
+
+.leatest-added-home {
+  @apply border-mainBlue shadow-[2px_1px_27px_-14px_rgba(79,79,79,0.89)];
 }

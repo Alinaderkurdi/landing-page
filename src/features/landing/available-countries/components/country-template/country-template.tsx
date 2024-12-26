@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-import style from './country-info.module.scss';
+import style from './country-template.module.scss';
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
 type countryInfoType = {
@@ -8,7 +8,7 @@ type countryInfoType = {
     imageUrl: StaticImport
 }
 
-const CountryInfo = (props: countryInfoType)=> {
+const CountryTemplate = (props: countryInfoType)=> {
     const {countryName, imageUrl} = props
     return(
         <div className={style['info-box']}>
@@ -23,4 +23,4 @@ const CountryInfo = (props: countryInfoType)=> {
     )
 }
 
-export default CountryInfo
+export default CountryTemplate

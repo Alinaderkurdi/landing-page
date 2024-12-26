@@ -1,6 +1,5 @@
 
 
 .wrapper-main {
-    border: 1px red solid;
-    @apply mt-2 grid gap-1 grid-cols-1 smTab:grid-cols-2;
+    @apply mt-4 grid gap-4 grid-cols-1 smTab:grid-cols-2;
 }
