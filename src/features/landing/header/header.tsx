@@ -1,7 +1,8 @@
 import style from './header.module.scss'
 import Authentication from '@/features/authentication/authentication';
 import Navigation from './navigation/navigation';
-import LogoBox from './logo-box/logo-box';
+//import LogoBox from './logo-box/logo-box';
+import LogoBox from '../logo-box/logo-box';
 
 
 

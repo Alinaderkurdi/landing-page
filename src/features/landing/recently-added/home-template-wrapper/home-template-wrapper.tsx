@@ -108,7 +108,6 @@ const HomeTemplateWrapper = ()=> {
     return(
         <div className={style['wrapper-main']}>
            {dummyData.map((singleHome:homeData)=>{
-              console.log(singleHome)
               return(
                 <HomeTemplate 
                  key={singleHome.id}
