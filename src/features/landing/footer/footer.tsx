@@ -6,6 +6,9 @@ import TakeTour from './take-tour/take-tour';
 import OurCompany from './our-company/our-company';
 import sectionCommonStyle from '../style/landing-section/section-common.module.scss';
 
+//some changes!!
+
+
 const Footer = ()=> {
 
     return(
