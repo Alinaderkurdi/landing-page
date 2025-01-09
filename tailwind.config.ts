@@ -13,7 +13,7 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         mainBlue : '#0AA8FF',
-        mainGray: '#8F90A5'
+        mainGray: '#8F90A5',
       },
 
       screens: {

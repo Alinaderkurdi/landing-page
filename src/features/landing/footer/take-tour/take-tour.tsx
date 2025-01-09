@@ -4,11 +4,11 @@ import style from './take-tour.module.scss';
 
 const TakeTour = ()=> {
 
-    return(
-        <div className={style['take-box']}>
-          <SectionTitle>take a tour </SectionTitle>
-        </div>
-    )
+  return(
+    <div className={style['take-box']}>
+      <SectionTitle>Take a tour </SectionTitle>
+    </div>
+  )
 }
 
 export default TakeTour;
