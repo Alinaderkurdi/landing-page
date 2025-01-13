@@ -1,0 +1,10 @@
+
+
+.input-fild {
+    @apply w-full outline-none rounded-lg h-11 border border-mainGray;
+
+    &::placeholder {
+        @apply text-[red] 
+    }
+}
+

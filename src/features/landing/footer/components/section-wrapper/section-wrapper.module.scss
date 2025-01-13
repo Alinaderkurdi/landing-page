@@ -1,0 +1,6 @@
+
+
+.section-wrapper{
+   // border: 1px red solid;
+    @apply flex-none items-start  gap-3 p-1 tab&win:pl-4 flex flex-col;
+}
