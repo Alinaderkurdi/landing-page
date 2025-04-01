@@ -1,6 +1,10 @@
 
 
 .footer-main {
-    border: 1px red solid;
-    @apply w-full h-56 mt-10 flex !rounded-none;
+  //border: 1px red solid;
+  @apply w-full  mt-10 flex flex-col !rounded-none tab&win:flex-row ;
+  .right-box {
+   // border: 1px red solid;
+    @apply grid grid-cols-3 gap-2 pt-1 w-full;
+  }
 }

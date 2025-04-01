@@ -6,14 +6,17 @@ import TakeTour from './take-tour/take-tour';
 import OurCompany from './our-company/our-company';
 import sectionCommonStyle from '../style/landing-section/section-common.module.scss';
 
+
 const Footer = ()=> {
 
     return(
         <footer className={`${style['footer-main']} ${sectionCommonStyle['section-common']}`}>
             <More_Social />
-            <TakeTour />
-            <OurCompany />
-            <Subscribe />
+            <div className={style['right-box']}>
+               <TakeTour />
+              <OurCompany />
+              <Subscribe /> 
+            </div> 
         </footer>
     )
 }

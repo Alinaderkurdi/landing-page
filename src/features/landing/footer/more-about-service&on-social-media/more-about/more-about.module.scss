@@ -1,0 +1,6 @@
+
+
+.text {
+    line-height: 1.50rem !important;
+    @apply mt-4 max-w-[19rem] line-clamp-2 tab&win:line-clamp-none;
+}
