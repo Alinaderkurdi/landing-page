@@ -2,9 +2,9 @@ import Image from "next/image";
 import style from './logo-box.module.scss';
 import logo from  '../assets/logo/newLOGO (1).svg';
 
-type logoBox = {
-  appendStyle?: string
-}
+//type logoBox = {
+//  appendStyle?: string
+//}
 
 
 const LogoBox = ()=> {

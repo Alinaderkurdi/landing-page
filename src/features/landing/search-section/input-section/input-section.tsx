@@ -1,6 +1,6 @@
 import style from './input-section.module.scss'
-import Button from '@/components/button/button';
-import { FiSearch } from "react-icons/fi";
+//import Button from '@/components/button/button';
+//import { FiSearch } from "react-icons/fi";
 
 
 const InputSection = ()=> {
