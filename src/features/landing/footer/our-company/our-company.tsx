@@ -1,5 +1,5 @@
 
-import style from './our-company.module.scss';
+//import style from './our-company.module.scss';
 import SectionTitle from '../components/section-title/section-title';
 import SectionLink from '../components/section-link/section-link';
 import SectionWrapper from '../components/section-wrapper/section-wrapper';

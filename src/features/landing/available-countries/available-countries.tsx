@@ -5,8 +5,8 @@ import londonImage from './assets/pexels-pixabay-258117.jpg'
 import newYork from './assets/pexels-flooriefloor-18535324.jpg'
 import paris from './assets/pexels-kadiravsarr-20170702.jpg'
 import spain from './assets/pexels-enricoperini-819764.jpg'
-import test from './assets/pexels-binyaminmellish-106399.jpg'
-import testB from './assets/pexels-binyaminmellish-1396132.jpg'
+//import test from './assets/pexels-binyaminmellish-106399.jpg'
+//import testB from './assets/pexels-binyaminmellish-1396132.jpg'
 
 
 // data featching

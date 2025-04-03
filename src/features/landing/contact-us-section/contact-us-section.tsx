@@ -1,7 +1,7 @@
 
 import style from './contact-us-section.module.scss'
 import sectionCommonStyle from '../style/landing-section/section-common.module.scss';
-import sectionImage from '../assets/contact-section-image/skyscraper.png'
+//import sectionImage from '../assets/contact-section-image/skyscraper.png'
 import Image from 'next/image';
 import serviceIntroducer from '../style/landing-section/service-introducer.module.scss'
 import commercialTower from '../assets/contact-section-image/commercial tower.png'

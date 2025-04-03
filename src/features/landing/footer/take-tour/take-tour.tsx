@@ -1,5 +1,5 @@
 import SectionTitle from "../components/section-title/section-title";
-import style from './take-tour.module.scss';
+//import style from './take-tour.module.scss';
 import SectionWrapper from "../components/section-wrapper/section-wrapper";
 
 import SectionLink from "../components/section-link/section-link";
